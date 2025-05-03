@@ -20,3 +20,5 @@
 - 🎯 Filtering using `topK` and `threshold` parameters  
 - ⚡ Real-world basics of how vector DBs like Pinecone, Weaviate, or FAISS work
 
+## License
+[MIT License](LICENSE)
