@@ -1,7 +1,4 @@
-import express, { Request, Response } from "express";
-import { generateEmbedding } from "./lib/embedding";
-import { VectorStore } from "./store";
-import NodeCache from "node-cache";
+import express from "express";
 import {
   addToStoreController,
   searchQueryInStore,
@@ -13,8 +10,6 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(express.json());
-const cache = new NodeCache({ stdTTL: 100 });
-const store = new VectorStore();
 
 // app.get("/", (req, res) => {
 //   res.json({
