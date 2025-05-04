@@ -1,4 +1,8 @@
 # 🔍 Vector Similarity Search Demo
+---
+
+## A simple visualization:
+![Cosine Similarity](cosine-similarity_visualization.png)
 
 > A minimal project to understand how **cosine similarity** works in a **vector database** 🧠📊.  
 > It demonstrates **semantic search** by converting text into embeddings and comparing them using vector math.
